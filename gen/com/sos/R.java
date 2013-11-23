@@ -25,8 +25,8 @@ public final class R {
     }
     public static final class id {
         public static final int CalendarMonthTxt=0x7f08001a;
-        public static final int LinearLayout_tabhost2=0x7f080020;
-        public static final int action_settings=0x7f080028;
+        public static final int LinearLayout_tabhost2=0x7f080021;
+        public static final int action_settings=0x7f080029;
         public static final int btn_Select=0x7f08001d;
         public static final int btn_calendar_nextmonth=0x7f08001b;
         public static final int btn_calendar_prevmonth=0x7f080019;
@@ -40,21 +40,22 @@ public final class R {
         public static final int button1=0x7f08000d;
         public static final int button2=0x7f08000e;
         public static final int button3=0x7f08000f;
+        public static final int imageView1=0x7f080020;
         public static final int imageView_mark=0x7f080002;
-        public static final int menu01=0x7f080023;
-        public static final int menu02=0x7f080024;
-        public static final int menu03=0x7f080025;
-        public static final int menu04=0x7f080026;
-        public static final int menu05=0x7f080027;
-        public static final int menu06=0x7f080029;
-        public static final int menu07=0x7f08002a;
-        public static final int menu08=0x7f08002b;
-        public static final int menu09=0x7f08002c;
-        public static final int menuitem_calendar_0=0x7f080022;
+        public static final int menu01=0x7f080024;
+        public static final int menu02=0x7f080025;
+        public static final int menu03=0x7f080026;
+        public static final int menu04=0x7f080027;
+        public static final int menu05=0x7f080028;
+        public static final int menu06=0x7f08002a;
+        public static final int menu07=0x7f08002b;
+        public static final int menu08=0x7f08002c;
+        public static final int menu09=0x7f08002d;
+        public static final int menuitem_calendar_0=0x7f080023;
         public static final int out_layout=0x7f080017;
         public static final int scrollView1=0x7f080008;
         public static final int selectmonth=0x7f080018;
-        public static final int t_tabitem=0x7f080021;
+        public static final int t_tabitem=0x7f080022;
         public static final int textView1=0x7f080009;
         public static final int textView2=0x7f08000a;
         public static final int textView3=0x7f08000b;
@@ -78,8 +79,9 @@ public final class R {
         public static final int sos_reservingin_selecttime=0x7f030004;
         public static final int sos_reservingout_info=0x7f030005;
         public static final int sos_reservingout_list=0x7f030006;
-        public static final int subtabactivity=0x7f030007;
-        public static final int t_tabitem=0x7f030008;
+        public static final int space_semina_a=0x7f030007;
+        public static final int subtabactivity=0x7f030008;
+        public static final int t_tabitem=0x7f030009;
     }
     public static final class menu {
         public static final int calendar_menu=0x7f070000;
