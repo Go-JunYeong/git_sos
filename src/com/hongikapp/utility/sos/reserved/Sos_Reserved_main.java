@@ -57,37 +57,6 @@ public class Sos_Reserved_main extends Activity {
 
 	}
 
-	private class DataReserved_adapter{
-		// 레이아웃 XML을 읽어들이기 위한 객체
-
-	}
-
-	// CData안에 받은 값을 직접 할당
-	public class CData {
-
-		private String m_szLabel;
-		private String m_szData;
-		private int m_szData2;
-
-		public CData(Context context, String p_szLabel, String p_szDataFile,
-				int p_szData2) {
-			m_szLabel = p_szLabel;
-			m_szData = p_szDataFile;
-			m_szData2 = p_szData2;
-		}
-
-		public String getLabel() {
-			return m_szLabel;
-		}
-
-		public String getData() {
-			return m_szData;
-		}
-
-		public int getData2() {
-			return m_szData2;
-		}
-	}
 /*
 	OnClickListener mClick = new OnClickListener() {
 

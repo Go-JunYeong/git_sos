@@ -26,7 +26,7 @@
         android:orientation="vertical" >
 
         <TextView
-            android:id="@+id/textView_spaceName"
+            android:id="@+id/txt_spaceName"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
@@ -36,13 +36,38 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/textView_reservedInfo"
+            android:id="@+id/txt_reservedDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0.69"
             android:textStyle="bold"
-            android:textSize="13sp"
+            android:textSize="13dip"
             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.69" >
+
+            <TextView
+                android:id="@+id/txt_reservedTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.69"
+                android:textStyle="bold"
+                android:textSize="13dip"
+                android:text="TextView" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.69"
+                android:textSize="13dip"
+                android:textStyle="bold"
+                android:text="에 예약되습니다." />
+
+        </LinearLayout>
+        
     </LinearLayout>
 
     <LinearLayout

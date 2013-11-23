@@ -40,11 +40,10 @@ public class Sos_ReservedAdapter  extends ArrayAdapter<Sos_Reserved_Data> {
 					.findViewById(R.id.textView_reservedInfo);
 
 			// ImageView에 뿌려질 해당 이미지값을 연결 3번째 인수값
-			iv.setImageResource(data.getData2());
 			// TextView1에 getLabel()을 출력 즉 1번째 인수값
-			tv.setText(data.getLabel());
+			tv.setText(data.getReserved_Space());
 			// TextView2에 getLabel()을 출력 즉 2번째 인수값
-			tv2.setText(data.getData());
+			tv2.setText(data.getReserved_Date());
 			tv2.setTextColor(Color.GRAY);
 		}
 		return view;
