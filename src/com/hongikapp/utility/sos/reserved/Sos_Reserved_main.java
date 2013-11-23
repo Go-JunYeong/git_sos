@@ -1,21 +1,15 @@
 package com.hongikapp.utility.sos.reserved;
 
-import com.sos.R;
 import java.util.ArrayList;
 
 import android.app.Activity;
-import android.content.Context;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.ArrayReserved_adapter;
 import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import com.sos.R;
 
 public class Sos_Reserved_main extends Activity {
 
@@ -45,9 +39,9 @@ public class Sos_Reserved_main extends Activity {
 
 		Reserved_adapter.add(new Sos_Reserved_Data(getApplicationContext(), "HOLLYS\nCOFFEE",
 				"5월 25일\n7시에 예약되셨습니다.", R.drawable.ic_launcher));
-		Reserved_adapter.add(new CData(getApplicationContext(), "T606",
+		Reserved_adapter.add(new Sos_Reserved_Data(getApplicationContext(), "T606",
 				"5월 20일\n7시에 예약되셨습니다.", R.drawable.ic_launcher));
-		Reserved_adapter.add(new CData(getApplicationContext(), "CAFE\nBENEE",
+		Reserved_adapter.add(new Sos_Reserved_Data(getApplicationContext(), "CAFE\nBENEE",
 				"9월 20일\n3시에 예약되셨습니다.", R.drawable.ic_launcher));
 	
 		listView.setAdapter(Reserved_adapter);
@@ -75,7 +69,7 @@ public class Sos_Reserved_main extends Activity {
 								.getDecorView());
 			} else if (v == btnCancel) {
 				// 삭제할 수 있도록
-				//Reserved_adapter.delete(new CData(getApplicationContext(), "CAFE\nBENE",
+				//Reserved_adapter.delete(new Sos_Reserved_Data(getApplicationContext(), "CAFE\nBENE",
 				//		"9월 20일\n3시에 예약되셨습니다.", R.drawable.ic_launcher));
 				//
 			}
