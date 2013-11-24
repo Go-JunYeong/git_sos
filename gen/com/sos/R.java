@@ -72,16 +72,17 @@ public final class R {
         public static final int txtlist_sos_reservingout_list_list=0x7f08001f;
     }
     public static final class layout {
-        public static final int sos_reserved=0x7f030000;
-        public static final int sos_reserved_info=0x7f030001;
-        public static final int sos_reservingin_selectclassroom=0x7f030002;
-        public static final int sos_reservingin_selectspace=0x7f030003;
-        public static final int sos_reservingin_selecttime=0x7f030004;
-        public static final int sos_reservingout_info=0x7f030005;
-        public static final int sos_reservingout_list=0x7f030006;
-        public static final int space_semina_a=0x7f030007;
-        public static final int subtabactivity=0x7f030008;
-        public static final int t_tabitem=0x7f030009;
+        public static final int class_b=0x7f030000;
+        public static final int sos_reserved=0x7f030001;
+        public static final int sos_reserved_info=0x7f030002;
+        public static final int sos_reservingin_selectclassroom=0x7f030003;
+        public static final int sos_reservingin_selectspace=0x7f030004;
+        public static final int sos_reservingin_selecttime=0x7f030005;
+        public static final int sos_reservingout_info=0x7f030006;
+        public static final int sos_reservingout_list=0x7f030007;
+        public static final int space_semina_a=0x7f030008;
+        public static final int subtabactivity=0x7f030009;
+        public static final int t_tabitem=0x7f03000a;
     }
     public static final class menu {
         public static final int calendar_menu=0x7f070000;

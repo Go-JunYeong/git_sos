@@ -19,6 +19,9 @@ public class Sos_ReservedAdapter  extends ArrayAdapter<Sos_Reserved_Data> {
 	public Sos_ReservedAdapter(Context context, ArrayList<Sos_Reserved_Data> object) {
 		super(context, 0, object);
 		mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
+	
+	
 	}
 
 	public View gespaceiew(int position, View v, ViewGroup parent) {
@@ -37,6 +40,8 @@ public class Sos_ReservedAdapter  extends ArrayAdapter<Sos_Reserved_Data> {
 			TextView date = (TextView) view.findViewById(R.id.txt_reservedDate);
 			TextView time = (TextView) view.findViewById(R.id.txt_reservedTime);
 
+			
+			
 			// ImageView에 뿌려질 해당 이미지값을 연결 3번째 인수값
 			// Texspaceiew1에 getLabel()을 출력 즉 1번째 인수값
 			//spaceimg.setImageURI(uri);

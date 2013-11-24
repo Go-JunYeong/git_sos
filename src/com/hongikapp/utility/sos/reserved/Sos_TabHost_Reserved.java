@@ -20,7 +20,7 @@ public class Sos_TabHost_Reserved extends ActivityGroup {
 		super.onCreate(savedInstanceState);
 		history = new ArrayList<View>();
 		Reserved_Group = this;
-
+//ff`
 		Intent intent = new Intent(Sos_TabHost_Reserved.this, Sos_Reserved_main.class);
 		View view = getLocalActivityManager().startActivity("Sos_Reserved_main",
 				intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)).getDecorView();
