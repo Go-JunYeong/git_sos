@@ -2,7 +2,6 @@ package com.hongikapp.utility.sos.reserved;
 
 import java.util.ArrayList;
 
-import android.R.raw;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -20,7 +19,7 @@ public class Sos_ReservedAdapter  extends ArrayAdapter<Sos_Reserved_Data> {
 		super(context, 0, object);
 		mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
-	
+	// hi hello nihao
 	
 	}
 
