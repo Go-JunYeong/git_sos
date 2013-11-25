@@ -20,7 +20,7 @@ public class Sos_ReservedAdapter  extends ArrayAdapter<Sos_Reserved_Data> {
 		mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
 	// hi hello nihao
-	
+	// hihihiii
 	}
 
 	public View gespaceiew(int position, View v, ViewGroup parent) {
