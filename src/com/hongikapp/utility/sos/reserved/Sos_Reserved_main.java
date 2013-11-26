@@ -3,16 +3,11 @@ package com.hongikapp.utility.sos.reserved;
 import java.util.ArrayList;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.hongikapp.utility.sos.reservingin.Sos_TabHost_ReservingIn;
 import com.sos.R;
 
 public class Sos_Reserved_main extends Activity {
