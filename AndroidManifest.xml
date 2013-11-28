@@ -5,11 +5,8 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="11"
         android:targetSdkVersion="18" />
-
-    <uses-permission android:name="android.permission.INTERNET" >
-    </uses-permission>
 
     <application
         android:allowBackup="true"
@@ -25,26 +22,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.hongikapp.utility.sos.reserved.Sos_TabHost_Reserved" >
-        </activity>
-        <activity android:name="com.hongikapp.utility.sos.reserved.Sos_Reserved_main" >
-        </activity>
-        <activity android:name="com.hongikapp.utility.sos.reservingin.Sos_TabHost_ReservingIn" >
-        </activity>
-        <activity android:name="com.hongikapp.utility.sos.reservingin.Sos_ReservingInSelectClassRoom" >
-        </activity>
-        <activity android:name="com.hongikapp.utility.sos.reservingin.Sos_ReservingInSelectSpace" >
-        </activity>
-        <activity android:name="com.hongikapp.utility.sos.reservingin.Sos_ReservingInSelectTime_Main" >
-        </activity>
-        <activity android:name="com.hongikapp.utility.sos.reservingout.Sos_TabHost_ReservingOut" >
-        </activity>
-        <activity android:name="com.hongikapp.utility.sos.reservingout.Sos_ReservingOutInfo" >
-        </activity>
-        <activity android:name="com.hongikapp.utility.sos.reservingout.Sos_ReservingOutList" >
-        </activity>
-        <activity android:name="com.hongikapp.utility.sos.reservingin.Sos_ReservingInSelectTime_CTCalendarView" >
-        </activity>
+        <activity android:name="com.hongikapp.utility.sos.reserved.Sos_TabHost_Reserved"></activity>
+        <activity android:name="com.hongikapp.utility.sos.reserved.Sos_Reserved_main"></activity>
+        <activity android:name="com.hongikapp.utility.sos.reservingin.Sos_TabHost_ReservingIn"></activity>
+        <activity android:name="com.hongikapp.utility.sos.reservingin.Sos_ReservingInSelectClassRoom"></activity>
+        <activity android:name="com.hongikapp.utility.sos.reservingin.Sos_ReservingInSelectSpace"></activity>
+        <activity android:name="com.hongikapp.utility.sos.reservingin.Sos_ReservingInSelectTime_Main"></activity>
+        <activity android:name="com.hongikapp.utility.sos.reservingout.Sos_TabHost_ReservingOut"></activity>
+        <activity android:name="com.hongikapp.utility.sos.reservingout.Sos_ReservingOutInfo"></activity>
+        <activity android:name="com.hongikapp.utility.sos.reservingout.Sos_ReservingOutList"></activity>
+        <activity android:name="com.hongikapp.utility.sos.reservingin.Sos_ReservingInSelectTime_CTCalendarView"></activity>
+        
     </application>
 
 </manifest>

@@ -4,7 +4,6 @@
     android:layout_height="380dip"
     android:orientation="vertical" >
 
-<<<<<<< HEAD
     <ImageView
         android:id="@+id/imageView1"
         android:layout_width="match_parent"
@@ -12,6 +11,4 @@
         android:src="@drawable/ic_launcher" />
 
     
-=======
->>>>>>> e3bb61614eb28b14b4614b1a0d0e6ae94f22ebdf
 </LinearLayout>
