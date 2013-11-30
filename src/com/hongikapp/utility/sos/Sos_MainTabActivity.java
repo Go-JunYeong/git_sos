@@ -27,7 +27,7 @@ public class Sos_MainTabActivity extends TabActivity implements OnTabChangeListe
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
 	    setContentView(R.layout.subtabactivity);
-	    
+	    Log.e("adp2", "adp342");
 	    tabHost = (TabHost)findViewById(android.R.id.tabhost);
 	    tabwidget = (TabWidget)findViewById(android.R.id.tabs);
 	    Log.e("adp2", "adp2");

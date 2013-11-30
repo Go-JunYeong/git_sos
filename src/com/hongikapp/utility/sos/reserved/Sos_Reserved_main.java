@@ -24,6 +24,7 @@ public class Sos_Reserved_main extends Activity {
 		super.onCreate(savedInstanceState);
 
 		setContentView(R.layout.sos_reserved);
+		/*
 		Log.e("ad55p", "ad55p");
 		listView = (ListView) findViewById(R.id.txtlist_sos_reserved_list);
 		userInfo = (TextView) findViewById(R.id.txt_sos_reserved_title);
@@ -45,7 +46,7 @@ public class Sos_Reserved_main extends Activity {
 				"9월 20일\n3시에 예약되셨습니다.", R.drawable.ic_launcher));
 	
 		listView.setAdapter(Reserved_adapter);
-		
+		*/
 		//btnMore.setOnClickListener(mClick);
 		//btnCancel.setOnClickListener(mClick);
 
