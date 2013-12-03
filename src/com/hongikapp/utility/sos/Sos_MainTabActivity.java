@@ -30,7 +30,7 @@ public class Sos_MainTabActivity extends TabActivity implements OnTabChangeListe
 	    
 	    tabHost = (TabHost)findViewById(android.R.id.tabhost);
 	    tabwidget = (TabWidget)findViewById(android.R.id.tabs);
-	    Log.e("adp2", "adp2");
+	    
 	    LayoutInflater reserved_vi = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 	    LayoutInflater reservingIn_vi = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 	    LayoutInflater reservingOut_vi = (LayoutInflater)getSystemService(Context.LAYOUT_INFLATER_SERVICE);
@@ -50,7 +50,6 @@ public class Sos_MainTabActivity extends TabActivity implements OnTabChangeListe
 	    reservingIn_layout.setBackgroundResource(R.drawable.ic_launcher);
 	    reservingOut_layout.setBackgroundResource(R.drawable.ic_launcher);
 	    
-	    Log.e("adp3", "adp3");
 	    tabHost.addTab(tabHost.newTabSpec("Sos_Reserved_main")
 	    		.setIndicator(reserved_view)
 	    		.setContent(new Intent(this, Sos_TabHost_Reserved.class)));
