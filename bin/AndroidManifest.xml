@@ -8,11 +8,8 @@
         android:minSdkVersion="11"
         android:targetSdkVersion="18" />
 
-<<<<<<< HEAD
     <uses-permission android:name="android.permission.INTERNET" />
 
-=======
->>>>>>> 3214e8b5bb8c77ba8d542d188e6289b1fd99d3cd
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
